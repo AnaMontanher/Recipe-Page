@@ -101,6 +101,11 @@ td:nth-child(2) {
   color: hsl(14, 45%, 36%);
 }
 
+footer{
+    padding-top: 30px;
+    text-align: center;
+}
+
 @media (min-width: 500px) {
 img{  border-radius: 10px;
 }
