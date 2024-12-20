@@ -101,7 +101,7 @@ td:nth-child(2) {
   color: hsl(14, 45%, 36%);
 }
 
-@media (min-width: 375px) {
+@media (min-width: 500px) {
 img{  border-radius: 10px;
 }
   body {
