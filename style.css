@@ -2,19 +2,19 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  text-align: justify;
 }
 
-section{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 img {
   max-width: 100%;
 }
-
 
 #container {
   background-color: hsl(0, 0%, 100%);
@@ -27,18 +27,18 @@ img {
 }
 ul,
 ol {
-  text-align: left;
-  margin-left: 16px;
+  margin-left: 20px;
 }
 li {
-  padding: 5px 0px;
   line-height: 24px;
+  padding-left: 20px;
+  padding-bottom: 5px;
 }
 
 li::marker {
   /*COR DOS PONTOS DAS LISTAS*/
   color: hsl(332, 51%, 32%);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -49,7 +49,7 @@ span {
 #infoprep {
   display: flex;
   flex-direction: column;
-  padding: 20px 40px;
+  padding: 20px 20 px;
   margin: 10px 0px 10px 0px;
   border-radius: 8px;
   background-color: hsla(331, 100%, 98%, 0.857);
@@ -67,12 +67,15 @@ hr {
 h1 {
   font-family: "Young Serif", serif;
   font-weight: 400;
+  font-size: 30px;
+  padding-top: 20px;
   color: hsl(24, 5%, 18%);
 }
 
 h2 {
   color: hsl(14, 45%, 36%);
   font-family: "Young Serif", serif;
+  font-weight: 400;
   padding-bottom: 15px;
 }
 
@@ -84,6 +87,8 @@ h3 {
 
 p {
   font-size: 16px;
+  line-height: 24px;
+  word-spacing: 1px;
 }
 
 table {
@@ -101,22 +106,32 @@ td:nth-child(2) {
   color: hsl(14, 45%, 36%);
 }
 
-footer{
-    padding-top: 30px;
-    text-align: center;
+#nutrition p{
+    padding-bottom: 10px;
+}
+
+footer {
+  padding-top: 30px;
+  text-align: center;
 }
 
 @media (min-width: 500px) {
-img{  border-radius: 10px;
-}
+  img {
+    border-radius: 10px;
+  }
   body {
-    background-color:  hsl(30, 54%, 90%);
+    background-color: hsl(30, 54%, 90%);
     padding: 40px 0;
   }
   #container {
     padding: 30px;
     width: 40%;
   }
-  #infoprep{  border-radius: 8px;
+  #infoprep {
+    border-radius: 10px;
+    padding: 20px 20px;
+  }
+  section {
+    padding: 0;
   }
 }
