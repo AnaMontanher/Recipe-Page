@@ -49,7 +49,7 @@ span {
 #infoprep {
   display: flex;
   flex-direction: column;
-  padding: 20px 20 px;
+  padding: 20px 20px;
   margin: 10px 0px 10px 0px;
   border-radius: 8px;
   background-color: hsla(331, 100%, 98%, 0.857);
@@ -125,7 +125,7 @@ footer {
   }
   #container {
     padding: 30px;
-    width: 40%;
+    width: 50%;
   }
   #infoprep {
     border-radius: 10px;
